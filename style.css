@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    caret-color:white;
+    /*background: black;*/
+    text-align:center;
+   background: url('https://eightbitweapon.files.wordpress.com/2014/07/8-bit-weapon-bits-with-byte-background.png') 
+   no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+  
+     
+  
+  }
+  
+  /*canvas{
+     width: 100%;
+     text-align:center;
+     display: inline;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1em;
+    margin-bottom:2em;
+  }*/
+  
+  
+  container {
+      text-align: center;
+  }
+  
+  
+  h1{
+  
+  color:green;
+    
+    font-family: 'Press Start 2P', cursive;
+    text-transform:uppercase;
+  
+  }
+  
+  h3{
+  color:red;
+    
+    font-family: 'Press Start 2P', cursive;
+    text-transform:uppercase;
+    padding-bottom: 5px;
+  
+  }
+  
+  #control{
+  color:blue;
+    font:serif;
+  }
+  #controls{
+  
+  color:red;
+    
+    
+  }
+  
+  #directions{
+   font-family: 'Press Start 2P', cursive;
+    color:pink;
+    text-transform:uppercase;
+    font-size:25px;
+    
+  
+  }
+  
+  button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin-top:500px;
+    margin-right: 20px;
+    
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
